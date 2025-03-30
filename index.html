@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Portfolio</title>
+
+    
+
+
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <h1>Yugapriyan V 
+
+        </h1>
+        <img src="qq.png"alt="Profile Picture" class="picture-content" >
+        <h4>STUDENT </h4>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="about">
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>I am a dedicated and enthusiastic 
+            BCA student with a passion for 
+            programming and problem-solving. 
+            Proficient in Python and C++, I am 
+            eager to apply my knowledge and 
+            gain practical experience in the 
+            technology sector. My strong interest 
+            in outdoor activities and sports helps 
+            me maintain a balanced and active 
+            lifestyle..</p>
+    </div>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>I am Currently Pursuing 2nd Year Bca  .</p>
+        <P></P>
+    </section>
+    
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>python</p>
+        <p>Java</p>
+        <p>Excel and PowerPoint</p>
+        <p>Communication Skills</p>
+    </section>
+
+
+
+    <section id="Resume">
+        <center>
+        <div class="section-content">
+        <h2>Resume</h2>
+        <a  href="https://drive.google.com/file/d/1wAqC5ABjWIc956XmSAntHpWAC51SYj5K/view?usp=drivesdk" class="download-btn">
+          Download CV  </a>
+    </center>
+</div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mobile : 9884937369 
+        </p>
+        <p>You can reach me at <a href=" yugapriyan30@gmail.com 
+
+
+            "> yugapriyan30@gmail.com 
+
+
+        </a></p>
+        <p>location : chennai</p>
+    </section>
+
+
+
+    <footer>
+
+
+
+
+        <center>
+        <p>&copy; Yugapriyan V 
+
+        </p>
+    </center>
+
+    </footer>
+
+
+
+
+
+<script>
+
+
+
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
